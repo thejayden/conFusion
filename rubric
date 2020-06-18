@@ -1,0 +1,28 @@
+RUBRIC
+The reservation form contains six radio options from 1 to 6
+
+The form contains a date field.
+
+The form contains a time field.
+
+The form includes a submit button with the name 'Reserve'
+
+The form is correctly enclosed inside a card-block div
+
+A card with the card header of 'Reserve a Table' is correctly constructed to enclose the form
+
+The media class is correctly applied to a div that encloses the content in the second column of the second row.
+
+The media-body class is correctly applied to the div that encloses the description content including the mt-0 class for the <h2> heading
+
+The image is correctly included in the div with d-flex, ml-3 and img, img-thumbnail and align-self-center classes.
+
+The image div is placed after the media-body div so that the image appears to the right in the content. Alternately an appropriate flexbox CSS class is added to position it to the right of the media body.
+
+The badge class is correctly applied to display the “NEW” badge in the content
+
+The “Reserve Table” button is correctly included in the Jumbotron next to the restaurant logo. The button uses the <a> tag and btn, btn-block, btn-sm and btn-warning classes.
+
+The button is correctly included inside a div with the column classes appropriately applied.
+
+The button’s <a> tag contains a href pointing to the row containing the form for reserving the table.
