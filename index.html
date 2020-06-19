@@ -167,6 +167,9 @@
                                     cherry tomatoes, Vidalia onion, Guntur chillies and
                                     Buffalo Paneer.</p>
                             </div>
+                            <div class="carousel-caption d-md-none">
+                                <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block img-fluid"
@@ -174,7 +177,10 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
                                 <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-                        </div>
+                            </div>
+                            <div class="carousel-caption d-md-none">
+                                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block img-fluid"
@@ -188,6 +194,10 @@
                                 creating mouthwatering Indo-Italian fusion experiences.
                                 </p>
                             </div>
+                            <div class="carousel-caption d-md-none">
+                                <h2>Executive Chef <span class="badge badge-danger"></span></h2>
+                                <em>A picture is worth <strike>a thousand words</strike><strong>$12.00</strong> on Stock Photos</em>
+                            </div>
                         </div>
                         <ol class="carousel-indicators">
                             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -200,6 +210,14 @@
                         <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
+                        <div class="btn-group" id="carouselButton">
+                            <button class="btn btn-info btn-sm" id="carousel-pause">
+                                <span class="fa fa-pause"></span>
+                            </button>
+                            <button class="btn btn-info btn-sm" id="carousel-play">
+                                <span class="fa fa-play"></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -346,6 +364,17 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#mycarousel").carousel( { interval: 2000 } );
+            $("#carousel-pause").click(function(){
+                $("#mycarousel").carousel('pause');
+            });
+            $("#carousel-play").click(function(){
+                $("#mycarousel").carousel('cycle');
+            });
+        });
+    </script>
 </body>
 
 </html>
