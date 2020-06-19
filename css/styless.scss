@@ -74,3 +74,23 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.modal-content {
+    background:$background-pale;
+
+    .modal-header {
+        background: $background-dark;
+        .modal-title{
+            color:floralwhite;
+        }
+        .close {
+            color:floralwhite;
+        }
+    }
+}
