@@ -18,7 +18,7 @@ Website built based from the assignments within the course "Front-End Web UI Fra
 Also learned how to use javascript task runners to develop automated tasks, such as time-grunt, jit-grunt modules to clean, copy and compress codes for deployment in distribution folder.
 
 ### Certificate
-![Certificate of Completion](Coursera MAFP3T8V854K.png)
+![Certificate](certC1.png)
 
 ## Acknowledgments
 
